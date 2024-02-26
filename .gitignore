@@ -1,0 +1,7 @@
+### GoLand ###
+.idea
+*.db
+*.txt
+
+main/main
+
