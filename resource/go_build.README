@@ -1,0 +1,7 @@
+---mac电脑
+GOOS=darwin  GOARCH=amd64 go build -o go-ping-v1.0.0 main.go
+GOOS=darwin  GOARCH=arm64 go build -o go-ping-v1.0.0 main.go
+---Windows
+GOOS=windows GOARCH=amd64 go build -o go-ping-v1.0.0.exe main.go
+---Linux
+GOOS=linux   GOARCH=amd64 go build -o go-ping-v1.0.0 main.go
